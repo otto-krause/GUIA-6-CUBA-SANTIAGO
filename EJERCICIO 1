@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+char ch;
+printf("Introduce la letra de su nota: ");
+ch= getchar();
+switch(ch)
+{
+case 'f':
+case 'F':
+    puts("Su nota fue No Suficiente.");
+    break;
+case 'd':
+case 'D':
+    puts ("su nota fue Suficiente");
+    break;
+case 'c':
+case 'C':
+    puts("su nota fue regular");
+    break;
+
+case 'b':
+case 'B':
+    puts("su nota fue Buena");
+    break;
+case 'a':
+case 'A':
+    puts("su nota fue Excelente");
+    break;
+}
+system("pause");
+}
