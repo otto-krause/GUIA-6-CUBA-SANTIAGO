@@ -9,51 +9,51 @@ switch(A)
 {
 
 case 1:
-    ("Enero");
+    ("mes de Enero con 31 dias");
     break;
 
 case 2:
-    puts ("Febrero");
+    puts ("mes de Febrero con 28 dias ");
     break;
 
 case 3:
-    puts("Marzo");
+    puts("mes de Marzo con 31 dias");
     break;
 
 case 4:
-    puts("Abril");
+    puts("Mes de Abril con 30 dias");
     break;
 
 case 5:
-    puts("Mayo");
+    puts("Mes de Mayo con 31 dias");
     break;
 
 case 6:
-    puts("Junio");
+    puts("Mes de Junio con 30 dias");
     break;
 
 case 7:
-    puts ("Julio");
+    puts ("Mes de Julio con 31 dias");
     break;
 
 case 8:
-    puts("Agosto");
+    puts("Mes de Agosto con 31 dias");
     break;
 
 case 9:
-    puts("Septiembre");
+    puts("Mes de Septiembre con 30 dias");
     break;
 
 case 10:
-    puts("Octubre");
+    puts("Mes de Octubre con 31 dias");
     break;
 
 case 11:
-    puts("Noviembre");
+    puts("Mes de Noviembre con 30 dias ");
     break;
 
 case 12:
-    puts("Diciembre");
+    puts("Mes de Diciembre con 31 dias ");
     break;
 
 default:
