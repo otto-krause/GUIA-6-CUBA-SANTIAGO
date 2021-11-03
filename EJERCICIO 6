@@ -1,0 +1,87 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+int dia,mes;
+printf("Introduzca su dia de nacimiento: ");
+scanf("%d", &dia);
+printf("ingrese su mes de nacimiento: ");
+scanf("%d", &mes);
+switch(mes)
+{
+
+case 1:
+    if (dia>=21)
+    puts("acuario");
+    else
+    puts("piscis");
+    break;
+case 2:
+    if (dia>=19)
+    puts("piscis");
+    else
+    puts("aries");
+    break;
+case 3:
+    if (dia<=21)
+    puts("aries");
+    else
+    puts("tauro");
+    break;
+case 4:
+    if (dia>=21)
+    puts("tauro");
+    else
+    puts("geminis");
+    break;
+case 5:
+    if (dia>=22)
+    puts("geminis");
+    else
+    puts("cancer");
+    break;
+case 6:
+    if (dia<=22)
+    puts("cancer");
+    else
+    puts("leo");
+    break;
+case 7:
+    if (dia>=23)
+    puts("leo");
+    else
+    puts("virgo");
+    break;
+case 8:
+    if (dia>=24)
+    puts("virgo");
+    else 
+    puts
+    
+case 9:
+    if (dia>=24)
+    puts("libra");
+    else
+    puts("escorpio");
+    break;
+case 10:
+    if (dia>=24)
+    puts("escorpio");
+    else
+    puts("sagitario");
+    break;
+case 11:
+    if (dia>=23)
+    puts("sagitario");
+    else
+    puts("capricornio");
+    break;
+case 12:
+    if (dia>=22)
+    puts("capricornio");
+    else
+    puts("acuario");
+    break;
+
+}
+
